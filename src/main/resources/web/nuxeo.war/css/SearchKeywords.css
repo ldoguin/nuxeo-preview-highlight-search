@@ -1,0 +1,32 @@
+ .highlight {
+    background-color: yellow;
+}
+ .highlight-selected {
+    background-color: green;
+}
+
+ #floating-box {
+    background-color: #fff;
+    border: 3px double #62B8E5;
+    border-radius: 5px 0 0 0;
+    bottom: 0;
+    box-shadow: -1px -1px 2px #DDDDDD;
+    float: right;
+    padding: 0.5em;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+input [type="text"] {
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #E0E0E0 inset;
+    color: #666;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 18px;
+    margin:  .3em;
+    padding:  .3em;
+}
+input[type="image"] {margin: -0.3em 0.3em;}
+input[type="button"] { margin-right: 1em;}

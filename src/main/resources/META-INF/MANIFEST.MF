@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Nuxeo
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Name: nuxeo-preview-highlight-search
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: nuxeo-preview-highlight-search
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Nuxeo-Component: OSGI-INF/preview-adapter-contrib.xml

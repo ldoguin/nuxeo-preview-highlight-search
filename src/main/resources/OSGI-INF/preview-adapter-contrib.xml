@@ -1,0 +1,10 @@
+<component name="org.nuxeo.preview.highlight.contrib">
+  <require>org.nuxeo.ecm.platform.annotations.preview.adapter.contrib</require>
+  <extension
+    target="org.nuxeo.ecm.platform.preview.adapter.PreviewAdapterManagerComponent"
+    point="blobPostProcessor">
+    <blobPostProcessor
+      class="org.nuxeo.preview.search.highlight.SearchKeywordBlobPostProcessor" />
+  </extension>
+
+</component>
